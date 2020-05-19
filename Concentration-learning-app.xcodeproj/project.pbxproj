@@ -10,10 +10,10 @@
 		C13CE8992473E86C00520539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13CE8982473E86C00520539 /* AppDelegate.swift */; };
 		C13CE89B2473E86C00520539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13CE89A2473E86C00520539 /* SceneDelegate.swift */; };
 		C13CE89D2473E86C00520539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13CE89C2473E86C00520539 /* ViewController.swift */; };
-		C13CE8A02473E86C00520539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13CE89E2473E86C00520539 /* Main.storyboard */; };
 		C13CE8A32473E86C00520539 /* Concentration_learning_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C13CE8A12473E86C00520539 /* Concentration_learning_app.xcdatamodeld */; };
 		C13CE8A52473E86D00520539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13CE8A42473E86D00520539 /* Assets.xcassets */; };
 		C13CE8A82473E86D00520539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13CE8A62473E86D00520539 /* LaunchScreen.storyboard */; };
+		C13CE8B12473FAD800520539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13CE8B02473FAD800520539 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		C13CE8982473E86C00520539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C13CE89A2473E86C00520539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C13CE89C2473E86C00520539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C13CE89F2473E86C00520539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C13CE8A22473E86C00520539 /* Concentration_learning_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Concentration_learning_app.xcdatamodel; sourceTree = "<group>"; };
 		C13CE8A42473E86D00520539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C13CE8A72473E86D00520539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C13CE8A92473E86D00520539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13CE8B02473FAD800520539 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +58,24 @@
 		C13CE8972473E86C00520539 /* Concentration-learning-app */ = {
 			isa = PBXGroup;
 			children = (
-				C13CE8982473E86C00520539 /* AppDelegate.swift */,
-				C13CE89A2473E86C00520539 /* SceneDelegate.swift */,
+				C13CE8B02473FAD800520539 /* Main.storyboard */,
 				C13CE89C2473E86C00520539 /* ViewController.swift */,
-				C13CE89E2473E86C00520539 /* Main.storyboard */,
-				C13CE8A42473E86D00520539 /* Assets.xcassets */,
-				C13CE8A62473E86D00520539 /* LaunchScreen.storyboard */,
+				C13CE8AF2473EBB000520539 /* Supporting Files */,
 				C13CE8A92473E86D00520539 /* Info.plist */,
-				C13CE8A12473E86C00520539 /* Concentration_learning_app.xcdatamodeld */,
 			);
 			path = "Concentration-learning-app";
+			sourceTree = "<group>";
+		};
+		C13CE8AF2473EBB000520539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13CE8A42473E86D00520539 /* Assets.xcassets */,
+				C13CE8982473E86C00520539 /* AppDelegate.swift */,
+				C13CE89A2473E86C00520539 /* SceneDelegate.swift */,
+				C13CE8A62473E86D00520539 /* LaunchScreen.storyboard */,
+				C13CE8A12473E86C00520539 /* Concentration_learning_app.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13CE8B12473FAD800520539 /* Main.storyboard in Resources */,
 				C13CE8A82473E86D00520539 /* LaunchScreen.storyboard in Resources */,
 				C13CE8A52473E86D00520539 /* Assets.xcassets in Resources */,
-				C13CE8A02473E86C00520539 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C13CE89E2473E86C00520539 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C13CE89F2473E86C00520539 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C13CE8A62473E86D00520539 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
